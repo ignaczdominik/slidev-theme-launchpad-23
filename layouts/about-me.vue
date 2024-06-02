@@ -1,6 +1,4 @@
 <script setup lang="ts">
-  import { computed } from 'vue'
-  import { handleBackground } from '@slidev/client/layoutHelper.ts'
 
   const props = defineProps<{
     imageSrc?: string
@@ -15,13 +13,12 @@
     social3?: string
   }>()
 
-  const style = computed(() => handleBackground(props.imageSrc, false))
 </script>
 
 <template>
   <div class="slidev-layout about-me p-0">
     <div class="flex h-full">
-      <div class="w-1/2 h-full flex flex-col justify-end" :style="style">
+      <div class="w-1/2 h-full flex flex-col justify-end">
       </div>
       <div class="w-1/2 flex flex-col justify-between items-end px-8 py-16">
         <h1 v-if="helloMsg" class="flex">{{ helloMsg }}</h1>

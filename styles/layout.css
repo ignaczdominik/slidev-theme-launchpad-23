@@ -5,7 +5,7 @@
 
   /* Custom colors*/
   --slidev-theme-color: #f3eff5;
-  --slidev-theme-background: #161c2c;
+  --slidev-theme-background: url('https://images.unsplash.com/photo-1578662996442-48f60103fc96');
 
   /* Text sizes */
   --slidev-theme-font-size: 1.1em;
@@ -23,7 +23,7 @@
 
   /* Accent colors */
   --slidev-theme-accents-rose: #f141a8;
-  --slidev-theme-accents-teal: #44ffd2;
+  --slidev-theme-accents-teal: #91ff42;
   --slidev-theme-accents-yellow: #ffe45e;
   --slidev-theme-accents-red: #fe4a49;
   --slidev-theme-accents-lightblue: #15c2cb;
@@ -370,7 +370,7 @@
 
 /* About me slide */
 .about-me {
-  background: var(--slidev-theme-aboutme-background);
+  background: var(--slidev-theme-background);
   color: var(--slidev-theme-aboutme-color) !important;
   font-size: var(--slidev-theme-aboutme-font-size);
 
